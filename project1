@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>My Webpage</title>
+		<meta charset="UTF-8"/>
+		<meta name="description" content="My Webpage"/>
+		<meta name="keywords" content="bio,profile,homepage"/>
+		<meta name="author" content="Hero Padron"/>
+		<style>
+			div{
+				border: 1px solid black;
+				margin: 20px;
+			}
+			#picture1{
+				
+			}
+		</style>
+	</head>
+	<body>
+	<div id="backgroundtitle">
+		<div id="title">
+		
+		</div>
+		<div id="logo">
+		
+		</div>
+		<div id="author">
+		
+		</div>
+	</div>
+	<div id="picture1">
+		<img src="kamay.png">
+	</div>
+	<div id="stats">
+	
+	</div>
+	<div id="picture2">
+	
+	</div>
+	<div id="hyperlinks">
+	
+	</div>
+	
+	</body>
+</html>

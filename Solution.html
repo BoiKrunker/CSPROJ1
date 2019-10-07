@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			* {
+				margin: auto;
+				transition: all 1s;
+			}
+			body{
+				background-color: black;
+			}
+			div{
+				border: 1px solid black;
+			}
+			#backgroundtitle div{
+				box-sizing: border-box;
+			}
+			#backgroundtitle{
+				top: 0px;
+				width: 1375px;
+				height: 110px;
+				position: sticky;
+			}
+			#Stars{
+				position: absolute;
+				z-index: -1;
+				height: 110px;
+				width: 1375px;
+			}
+			#title{
+				float: left;
+				width: 110px;
+				height: 100%;
+				border: 0px;
+			}
+			#logo{
+				float: left;
+				width: 200px;
+				height: 100%;
+				border: 0px;
+			}
+			#author{
+				float: left;
+				width: 1000px;
+				height: 100%;
+				border: 0px;
+			}
+			#Moto{
+				float: left;
+				height: 100%;
+				border: 0px;
+				width: 800px;
+			}
+			#author1{
+				float: right;
+				height: 100%;
+				border: 0px;
+				width: 200px;
+			}
+			h1{
+				font-family: Garamond;
+				color: #FF4500;
+				padding-top: 20px;
+			}
+			p{
+				font-family: arial;
+				color: white;
+				padding-top; 20px;
+			}
+			#title img{
+				
+				height: 100px;
+				width: 110px;
+				padding: 10px;
+			}
+			#picture1 h1{
+				color: black;
+			}
+			#picture1{
+				width: 1375px;
+				height: 500px;
+			}
+			#desc{
+				float: left;
+				width: 1100px;
+				height: 1600px;
+				background-color: white;				
+			}
+			#desc div{
+				border: 0px;
+			}
+			#desc h1{
+				font-size: 45px;
+				width: 950px;
+				color: #FF4500;
+			}
+			#desc p{
+				padding: 10px;
+				color: black;
+				font-size: 20px;
+			}
+			#descp{
+				width: 1000px;
+			}
+			#globdesc{
+				width: 1000px;
+				height: 600px;
+			}
+			#Kamay{
+				float: left;
+				width: 1000px;
+				height: 600px;
+
+			}
+			#sources{
+				float: right;
+				width: 270px;
+				height: 1600px;
+				background-color: white;
+			}
+			#sources h1{
+				color: #FF4500;
+			}
+			#sources div{
+				width: 270px;
+				padding-top: 10px;
+				padding-bottom: 10px;
+				border: 0px;
+			}
+			#sources div:hover{
+				box-shadow: inset 500px 0 0 0 #FF4500;
+			}
+			#sources p{
+				width: 270px;
+				color: blue;	
+			}
+			#picture2{
+				width: 1375px;
+				height: 400px;
+			}
+			#picture2 h1{
+				color: black;
+			}
+			#CAE{
+				float: left;
+				width: 33.33%;
+				height: 400px;
+				background-color: white;
+				box-sizing: border-box;
+			}
+			#CAE div{
+				position: absolute;
+				border: 0px;
+			}
+			#CAE img{
+				width: 457px;
+				height: 400px;
+				opacity: 0.5;
+			}
+			#CAET{
+				width: 450px;
+				padding: 20px;
+			}
+			#CAE h1{
+				font-size: 50px;
+				position: absolute;
+				z-index: 1;
+			}
+			#CAE:hover{
+				box-shadow: inset 0 500px 0 0 #FF4500;
+			}
+			#NAS{
+				float: left;
+				width: 33.33%;
+				height: 400px;
+				background-color: white;
+				box-sizing: border-box;
+			}
+			#NAS div{
+				border: 0px;
+				position: absolute;
+			}
+			#NAS h1{
+				font-size: 50px;
+				position: absolute;
+				z-index: 1;
+			}
+			#NAS img{
+				width: 457px;
+				height: 400px;
+				opacity: 0.5;
+			}
+			#NAST{
+				width: 350px;
+				padding-top: 20px;
+				padding-left: 60px;
+			}
+			#NAS:hover{
+				box-shadow: inset 0 500px 0 0 #FF4500;
+			}
+			#SOL{
+				float: left;
+				width: 33.33%;
+				height: 400px;
+				background-color: white;
+				box-sizing: border-box;
+			}
+			#SOL h1{
+				font-size: 50px;
+				position: absolute;
+				z-index: 1;
+			}
+			#SOL img{
+				position: absolute;
+				width: 456px;
+				height: 398px;
+				opacity: 0.5;
+			}
+			#SOL:hover{
+				box-shadow: inset 0 500px 0 0 #FF4500;
+			}
+			#SOL div{
+				border: 0px;
+				position: absolute;
+			}
+			#SOLT{
+				width: 350px;
+				padding-top: 20px;
+				padding-left: 50px;
+			}
+			
+		</style>
+	</head>
+	<body>
+	<div id="backgroundtitle">
+		<img id="Stars" src="Stars.jpg">
+		<div id="title">
+			<img src="ASAN.png">
+		</div>
+		<div id="logo">
+			<h1>Global Warming</h1>
+		
+		</div>
+		<div id="author">
+			<div id="author1">
+				<p>by:</p>
+				<p>Xyrus Larisma</p>
+				<p>Gabriel Valmonte</p>
+				<p>Hero Padron</p>
+			</div>
+		</div>
+	</div>
+	<div id="picture1">
+		<div id="desc">
+			<div>
+				<h1>Preventing Global Warming from Getting Severe</h1>
+			</div>
+			<div id="globdesc">
+				<img id="Kamay" src="SOL.jpg">
+			</div>
+			<div id="descp">
+			<p>
+			The goal is simple. Carbon dioxide is the climate’s worst enemy. It’s released when oil, coal, and other fossil fuels are burned for energy—the energy we use to power our homes, cars, and smartphones. By using less of it, we can curb our own contribution to climate change while also saving money. Good news - there are ways to reduce global warming. But how can climate change be reversed? What solutions to consider?
+			<br>
+			<br>
+			Renewable energy icon
+			<br>
+			<br>
+			<strong>1.) Renewable energies</strong>
+			<br>
+			<br>
+			The first way to prevent climate change is to move away from fossil fuels. What are the alternatives? Renewable energies like solar, wind, biomass and geothermal.
+			Energy efficiency icon
+			<br>
+			<br>
+			<strong>2.) Energy & water efficiency</strong>
+			<br>
+			<br>
+			Producing clean energy is essential, but reducing our consumption of energy and water by using more efficient devices (e.g. LED light bulbs, innovative shower system) is less costly and equally important.
+			Sustainable transportation icon
+			<br>
+			<br>
+			<strong>3.) Sustainable transportation</strong>
+			<br>
+			<br>
+			Promoting public transportation, carpooling, but also electric and hydrogen mobility, can definitely help reduce CO2 emissions and thus fight global warming.
+			Sustainable infrastructure icon
+			<br>
+			<br>
+			<strong>4.) Sustainable infrastructure</strong>
+			<br>
+			<br>
+			In order to reduce the CO2 emissions from buildings - caused by heating, air conditioning, hot water or lighting - it is necessary both to build new low energy buildings, and to renovate the existing constructions.
+			Sustainable forest management icon
+			<br>
+			<br>
+			<strong>5.) Sustainable agriculture & forest management</strong>
+			<br>
+			<br>
+			Encouraging better use of natural resources, stopping massive deforestation as well as making agriculture greener and more efficient should also be a priority.
+			Recycling bin icon
+			<br>
+			<br>
+			<strong>6.) Responsible consumption & recycling</strong>
+			<br>
+			<br>
+			Adopting responsible consumption habits is crucial, be it regarding food (particularly meat), clothing, cosmetics or cleaning products. Last but not least, recycling is an absolute necessity for dealing with waste.
+			</p>
+			</div>
+		</div>
+		<div id="sources">
+			<h1>Reference:</h1>
+			<a href="https://www.ucsusa.org/our-work/global-warming/solutions/global-warming-solutions-reduce-emissions">
+			<div>
+				<p>https://www.ucsusa.org/our-work/global-warming/solutions/global-warming-solutions-reduce-emissions</p>
+			</div>
+			</a>
+			<a href="https://solarimpulse.com/global-warming-solutions">
+			<div>
+				<p>https://solarimpulse.com/global-warming-solutions</p>
+			</div>
+			</a>
+			<a href="https://www.nationalgeographic.com/environment/global-warming/global-warming-solution">
+			<div>
+				<p>https://www.nationalgeographic.com/<br>environment/global-warming/global-warming-solution</p>
+			</div>
+			</a>
+			<a href="https://solarimpulse.com/global-warming-solutions">
+			<div>
+				<p>https://solarimpulse.com/global-warming-solutions</p>
+			</div>
+			</a>
+			<a href="https://www.nrdc.org/stories/how-you-can-stop-global-warming">
+			<div>
+				<p>https://www.nrdc.org/stories/how-you-can-stop-global-warming</p>
+			</div>
+			</a>
+			
+		</div>
+	</div>
+	<div id="picture2">
+		
+		<a href="CauseAndEffect.html">
+		<div id="CAE">
+			<div id="CAET">
+				<h1>Cause and Effect of Global Warming</h1>
+			</div>
+			<div>
+				<img src="CAE.jpg">
+			</div>
+		</div>
+		</a>
+		
+		<a href="NewsAndStats.html">
+		<div id="NAS">
+			<div id="NAST">
+				<h1>News and Stats</h1>
+			</div>
+			<div>
+				<img src="NAS.jpg">
+			</div>
+		</div>
+		</a>
+		
+		<a href="project1.html">
+		<div id="SOL">
+			<div id="SOLT">
+				<h1>Global Warming</h1>
+			</div>
+			<div>
+			<img src="Kamay.png">
+			</div>
+		</div>
+		</a>
+		
+	</div>
+
+	
+	</body>
+</html>
